@@ -1,0 +1,10 @@
+const name = require("./3-name.js");
+const sayHi = require("./4-utils.js");
+const data = require("./5-alternative-flavour.js");
+require("./6-mind-grenade.js");
+console.log(data);
+const { umar, nafisa } = name;
+sayHi("Osman");
+sayHi(name.anees);
+sayHi(umar);
+sayHi(nafisa);
